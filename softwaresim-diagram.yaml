@@ -1,0 +1,738 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - iconCss: fa fa-cogs
+      id: edit
+      target: .e-elementcontent
+      text: Edit
+    - iconCss: fa fa-crosshairs
+      id: callout
+      target: .e-elementcontent
+      text: Callout To
+    - iconCss: fa fa-font
+      id: increaseFontSize
+      target: .e-elementcontent
+      text: Increase font size ↑
+    - iconCss: fa fa-font
+      id: decreaseFontSize
+      target: .e-elementcontent
+      text: Decrease font size ↓
+    - iconCss: fa fa-tint
+      id: fill
+      target: .e-elementcontent
+      text: Fill
+    - iconCss: fa fa-lightbulb-o
+      id: highlight
+      target: .e-elementcontent
+      text: Highlight
+    - iconCss: fa fa-compress
+      id: collapseToSquare
+      target: .e-elementcontent
+      text: Collapse to square
+    - iconCss: fa fa-compress
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      text: Collapse to named square
+    - iconCss: fa fa-compress
+      id: collapseToCircle
+      target: .e-elementcontent
+      text: Collapse to circle
+    - iconCss: fa fa-expand
+      id: expand
+      target: .e-elementcontent
+      text: Expand
+    - iconCss: fa fa-angle-double-up
+      id: front
+      target: .e-elementcontent
+      text: Bring to front
+    - iconCss: fa fa-angle-up
+      id: forward
+      target: .e-elementcontent
+      text: Bring forward
+    - iconCss: fa fa-angle-down
+      id: backward
+      target: .e-elementcontent
+      text: Send backward
+    - iconCss: fa fa-angle-double-down
+      id: back
+      target: .e-elementcontent
+      text: Send to back
+    - iconCss: fa fa-times
+      id: remove
+      target: .e-elementcontent
+      text: Remove
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1186
+  viewPortHeight: 762
+  horizontalOffset: 79
+  verticalOffset: -230.5
+addInfo:
+  currencySymbol: $
+  currencyText: USD ($)
+  selectedViewType: 0
+height: 762
+nodes:
+  - shape:
+      content: "<div class=\"c-html\" style=\"background-color: #3871e0;\"><div
+        class=\"c-container\"><div class=\"c-image-primary\"
+        style=\"background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/comp\
+        ute_engine_Black_87_hlfiaq.png);\"></div><div class=\"c-image-original\"
+        style=\"background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/comp\
+        ute_engine_rluunv.png);\"></div><div class=\"c-text\"><div
+        class=\"c-title\">Google Compute Engine</div><div
+        class=\"c-short-description\">Running virtual machines on Google's
+        infrastructure</div><div class=\"c-bottom\"><div class=\"c-hr
+        p-mb-1\"></div><div class=\"c-title-bottom\">Google Cloud
+        Platform</div></div></div></div></div>"
+      type: HTML
+    addInfo:
+      category: 5
+      color: "#3871e0"
+      controlText: Compute Engine
+      dynamicsViewSettings:
+        - name: Processing Tool
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+          type: Processor
+        - name: Connection Receiver
+          portsIn:
+            get: get
+            put: connection
+          portsOut:
+            stored: connection
+          type: Storage
+      dynamicsViews:
+        - AverageProcessingTime: 1
+          name: Processing Tool
+          status: Idle
+          type: Processor
+        - name: Connection Receiver
+          status: Idle
+          type: Storage
+      economicView:
+        accelerators: 0
+        cpus: 0
+        memory: 0
+        name: Google Compute Engine
+        networking: 0
+        other: 0
+        storage: 0
+        unknown: false
+        viewType: total
+      editableName: Google Compute Engine
+      functionView:
+        activityRatio: 0
+        completeAndAccuratePerc: 0
+        leadTime: 0
+        leadTimeSeconds: 0
+        name: Google Compute Engine
+        processTime: 0
+        processTimeSeconds: 0
+        shortDescription: Running virtual machines on Google's infrastructure
+        viewType: metrics
+      id: ""
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_Black_87_hlfiaq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine__044448_c5wixz.png
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/compute_engine_rluunv.png
+      latitude: 41.26194
+      location: "[GCP] us-central1"
+      longitude: -95.86083
+      name: Google Compute Engine
+      nodeType: html
+      selectedDynamicsView: 0
+      size: sm
+      status: N/A
+      title: Google Compute Engine
+      type: component
+    height: 100
+    id: Google Compute EnginetwtNK
+    offsetX: 732
+    offsetY: 233
+    width: 300
+    zIndex: 0
+    inEdges:
+      - Straight ConnectorGBoST
+      - Straight ConnectorcT5DJ
+      - Straight Connectora9sDZcSX9I
+  - shape:
+      content: '<div class="c-html" style="background-color: #616161;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_Black_87_a2x4yt.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_mlfqgr.png);"></div><div
+        class="c-text"><div class="c-title">Engineers</div><div
+        class="c-short-description">Designing, building, testing, and
+        maintaining software systems</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Engineers</div></div></div></div></div>'
+      type: HTML
+    addInfo:
+      category: 6
+      color: "#616161"
+      controlText: Engineers
+      dynamicsViewSettings:
+        - messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+          name: Work Item Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          type: Generator
+        - messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+          name: Request Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          type: Generator
+        - name: Response Receiver
+          portsIn:
+            get: latest
+            put: response
+          portsOut:
+            stored: response
+          type: Storage
+        - name: Deployer
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+          type: Processor
+      dynamicsViews:
+        - AverageTimeBetweenWorkItemCreations: 1
+          name: Work Item Generator
+          status: Idle
+          type: Generator
+        - AverageTimeBetweenRequests: 1
+          name: Request Generator
+          status: Idle
+          type: Generator
+        - name: Response Receiver
+          status: Idle
+          type: Storage
+        - AverageDeploymentDuration: 1
+          name: Deployer
+          status: Idle
+          type: Processor
+      economicView:
+        accelerators: 0
+        cpus: 0
+        memory: 0
+        name: Engineers
+        networking: 0
+        other: 0
+        storage: 0
+        unknown: false
+        viewType: total
+      editableName: Engineers
+      functionView:
+        activityRatio: 0
+        completeAndAccuratePerc: 0
+        leadTime: 0
+        leadTimeSeconds: 0
+        name: Engineers
+        processTime: 0
+        processTimeSeconds: 0
+        shortDescription: Designing, building, testing, and maintaining software systems
+        viewType: metrics
+      id: ""
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_Black_87_a2x4yt.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer__044448_mcw8wl.png
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1723615672/sds_logos/engineer_mlfqgr.png
+      latitude: null
+      longitude: null
+      name: Engineers
+      nodeType: html
+      selectedDynamicsView: 0
+      size: sm
+      status: N/A
+      title: Engineers
+      type: component
+    height: 100
+    id: EngineersLVOxF
+    offsetX: 150
+    offsetY: 245
+    width: 300
+    zIndex: 1
+    outEdges:
+      - Straight ConnectorAUHbS
+  - shape:
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_Black_87_eis0nj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_ja4mkg.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Identity-Aware Proxy</div></div><hr
+        class="c-underrule" style="background-color: #3871e0"></div>'
+      type: HTML
+    addInfo:
+      category: 5
+      collapsedToCircle: false
+      collapsedToNamedSquare: true
+      collapsedToSquare: false
+      color: "#3871e0"
+      controlText: Identity-Aware Proxy
+      dynamicsViewSettings:
+        - name: Processing Tool
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+          type: Processor
+      dynamicsViews:
+        - AverageProcessingTime: 1
+          name: Processing Tool
+          status: Idle
+          type: Processor
+      economicView:
+        accelerators: 0
+        cpus: 0
+        memory: 0
+        name: Google Identity-Aware Proxy
+        networking: 0
+        other: 0
+        storage: 0
+        unknown: false
+        viewType: total
+      editableName: Identity-Aware Proxy
+      functionView:
+        activityRatio: 0
+        completeAndAccuratePerc: 0
+        leadTime: 0
+        leadTimeSeconds: 0
+        name: Google Identity-Aware Proxy
+        processTime: 0
+        processTimeSeconds: 0
+        viewType: metrics
+      id: ""
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_Black_87_eis0nj.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy__044448_k4yiml.png
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/identity-aware_proxy_ja4mkg.png
+      latitude: null
+      longitude: null
+      name: Google Identity-Aware Proxy
+      nodeType: html
+      selectedDynamicsView: 0
+      size: sm
+      status: N/A
+      title: Google Identity-Aware Proxy
+      type: component
+    height: 124
+    id: Google Identity-Aware Proxyp2qwo
+    offsetX: 441
+    offsetY: 233
+    width: 183.00000000000003
+    zIndex: 3
+    inEdges:
+      - Straight ConnectorAUHbS
+    outEdges:
+      - Straight ConnectorGBoST
+  - shape:
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_Black_87_qjhiok.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_hyojz5.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Load Balancing</div><div
+        class="c-short-description">Distributing network traffic across multiple
+        servers to ensure high availability and reliability of
+        applications</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+      type: HTML
+    addInfo:
+      category: 5
+      color: "#3871e0"
+      controlText: Cloud Load Balancing
+      dynamicsViewSettings:
+        - name: Processing Tool
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+          type: Processor
+      dynamicsViews:
+        - AverageProcessingTime: 1
+          name: Processing Tool
+          status: Idle
+          type: Processor
+      economicView:
+        accelerators: 0
+        cpus: 0
+        memory: 0
+        name: Google Cloud Load Balancing
+        networking: 0
+        other: 0
+        storage: 0
+        unknown: false
+        viewType: total
+      editableName: Cloud Load Balancing
+      functionView:
+        activityRatio: 0
+        completeAndAccuratePerc: 0
+        leadTime: 0
+        leadTimeSeconds: 0
+        name: Google Cloud Load Balancing
+        processTime: 0
+        processTimeSeconds: 0
+        shortDescription: Distributing network traffic across multiple servers to ensure
+          high availability and reliability of applications
+        viewType: metrics
+      id: ""
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_Black_87_qjhiok.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing__044448_ujhkjo.png
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_hyojz5.png
+      latitude: null
+      longitude: null
+      name: Google Cloud Load Balancing
+      nodeType: html
+      selectedDynamicsView: 0
+      size: sm
+      status: N/A
+      title: Google Cloud Load Balancing
+      type: component
+    height: 100
+    id: Google Cloud Load BalancingEUGoW
+    offsetX: 732
+    offsetY: 84.5
+    width: 300
+    zIndex: 5
+    inEdges:
+      - Straight Connectora9sDZ
+      - Dashed Straight ConnectorL5l4I
+    outEdges:
+      - Straight ConnectorcT5DJ
+  - shape:
+      content: '<div class="c-html" style="background-color: #616161;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png);"></div><div
+        class="c-text"><div class="c-title">Users (and Bad Actors)</div><div
+        class="c-short-description">Interacting with and utilizing software or
+        application functionalities</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Users</div></div></div></div></div>'
+      type: HTML
+    addInfo:
+      category: 6
+      color: "#616161"
+      controlText: Users
+      dynamicsViewSettings:
+        - messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenWorkItemCreations
+          name: Work Item Generator
+          portsIn: {}
+          portsOut:
+            job: work item
+          type: Generator
+        - messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenRequests
+          name: Request Generator
+          portsIn: {}
+          portsOut:
+            job: request
+          type: Generator
+        - name: Response Receiver
+          portsIn:
+            get: latest
+            put: response
+          portsOut:
+            stored: response
+          type: Storage
+        - name: Deployer
+          portsIn:
+            job: deployable
+          portsOut:
+            job: deployed
+          serviceTime:
+            exp:
+              lambda: AverageDeploymentDuration
+          type: Processor
+      dynamicsViews:
+        - AverageTimeBetweenWorkItemCreations: 1
+          name: Work Item Generator
+          status: Idle
+          type: Generator
+        - AverageTimeBetweenRequests: 1
+          name: Request Generator
+          status: Idle
+          type: Generator
+        - name: Response Receiver
+          status: Idle
+          type: Storage
+        - AverageDeploymentDuration: 1
+          name: Deployer
+          status: Idle
+          type: Processor
+      economicView:
+        accelerators: 0
+        cpus: 0
+        memory: 0
+        name: Users
+        networking: 0
+        other: 0
+        storage: 0
+        unknown: false
+        viewType: total
+      editableName: Users (and Bad Actors)
+      functionView:
+        activityRatio: 0
+        completeAndAccuratePerc: 0
+        leadTime: 0
+        leadTimeSeconds: 0
+        name: Users
+        processTime: 0
+        processTimeSeconds: 0
+        shortDescription: Interacting with and utilizing software or application functionalities
+        viewType: metrics
+      id: ""
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_87_nsu596.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Users_Black_ij2426.png
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Users__616161_e24kgx.png
+      latitude: null
+      longitude: null
+      name: Users
+      nodeType: html
+      selectedDynamicsView: 0
+      size: sm
+      status: N/A
+      title: Users
+      type: component
+    height: 100
+    id: UsersHMTOk
+    offsetX: 1079
+    offsetY: 154.5
+    width: 300
+    zIndex: 7
+    outEdges:
+      - Straight Connectora9sDZ
+      - Straight Connectora9sDZcSX9I
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_armor_Black_87_h1ziof.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_armor_laixjf.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Armor</div><div
+        class="c-short-description">Protecting applications and services from
+        DDoS attacks and malicious web traffic</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud ArmortfdJU
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Armor
+        shortDescription: Protecting applications and services from DDoS attacks and
+          malicious web traffic
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Armor
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Armor
+      editableName: Cloud Armor
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Armor
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_armor_laixjf.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_armor__044448_tdimes.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_armor_Black_87_h1ziof.png
+      color: "#3871e0"
+      controlText: Cloud Armor
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 398
+    offsetY: 84.5
+    zIndex: 10
+    outEdges:
+      - Dashed Straight ConnectorL5l4I
+connectors:
+  - addInfo:
+      viewConnector: 0
+    id: Straight ConnectorAUHbS
+    sourceID: EngineersLVOxF
+    sourcePoint:
+      x: 300
+      y: 238.81
+    style:
+      strokeWidth: 2
+    targetDecorator:
+      shape: OpenArrow
+    targetID: Google Identity-Aware Proxyp2qwo
+    targetPoint:
+      x: 349.5
+      y: 236.77
+    zIndex: 2
+  - addInfo:
+      viewConnector: 0
+    id: Straight ConnectorGBoST
+    sourceID: Google Identity-Aware Proxyp2qwo
+    sourcePoint:
+      x: 532.5
+      y: 233
+    style:
+      strokeWidth: 2
+    targetDecorator:
+      shape: OpenArrow
+    targetID: Google Compute EnginetwtNK
+    targetPoint:
+      x: 582
+      y: 233
+    zIndex: 4
+  - addInfo:
+      viewConnector: 0
+    id: Straight ConnectorcT5DJ
+    sourceID: Google Cloud Load BalancingEUGoW
+    sourcePoint:
+      x: 732
+      y: 134.5
+    style:
+      strokeWidth: 2
+    targetDecorator:
+      shape: OpenArrow
+    targetID: Google Compute EnginetwtNK
+    targetPoint:
+      x: 732
+      y: 183
+    zIndex: 6
+  - addInfo:
+      viewConnector: 0
+    id: Straight Connectora9sDZ
+    sourceID: UsersHMTOk
+    sourcePoint:
+      x: 929
+      y: 124.24
+    style:
+      strokeWidth: 2
+    targetDecorator:
+      shape: OpenArrow
+    targetID: Google Cloud Load BalancingEUGoW
+    targetPoint:
+      x: 882
+      y: 114.76
+    zIndex: 8
+  - addInfo:
+      viewConnector: 0
+    annotations:
+      - id: nIUQG
+        content: X
+        style:
+          fill: white
+          bold: true
+    id: Straight Connectora9sDZcSX9I
+    sourceID: UsersHMTOk
+    sourcePoint:
+      x: 929
+      y: 188.44
+    style:
+      strokeWidth: 2
+    targetDecorator:
+      shape: OpenArrow
+    targetID: Google Compute EnginetwtNK
+    targetPoint:
+      x: 882
+      y: 199.07
+    zIndex: 9
+  - id: Dashed Straight ConnectorL5l4I
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 548
+      y: 84.5
+    targetPoint:
+      x: 582
+      y: 84.5
+    sourceID: Google Cloud ArmortfdJU
+    targetID: Google Cloud Load BalancingEUGoW
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+selectedItems:
+  height: 0
+  width: 0
